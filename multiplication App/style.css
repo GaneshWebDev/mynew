@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: blue;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: -5px -5px 10px black; 
+    font-family: cursive;
+    color: blue;
+    padding: 15px;
+    border-radius: 5px;
+      
+}
+#score{
+    text-align: right;
+}
+#input{
+    font-family: cursive;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    border-color: blue;
+    margin: 10px;
+    
+}
+#input::placeholder {
+    color:blue;
+    font-family: cursive;
+}
+#submit{
+    margin: 10px;
+    font-family: cursive;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
